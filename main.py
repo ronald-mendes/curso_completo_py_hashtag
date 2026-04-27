@@ -10,8 +10,8 @@ from twilio.rest import Client
 
 
 # Your Account SID and Auth Token from console.twilio.com
-account_sid = "account_sid"
-auth_token  = "auth_token"
+account_sid = "account_sid" # É necessário cadastrar  no twillo para obter.
+auth_token  = "auth_token" # É necessário cadastrar  no twillo para obter.
 client = Client(account_sid, auth_token)
 
 
